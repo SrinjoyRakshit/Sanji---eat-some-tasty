@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Sanji - eat something tasty</title>
+</head>
+<body>
+    <div class="reservation" id="reservation">
+        <i id="closeResrv" class="fas fa-bars fa-times"></i>
+
+        <div class="res-bg">
+            <div class="text">
+                <h3>Book a table</h3>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Full Name">
+                <input type="number" placeholder="Mobile Number">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="How Many">
+                <input type="date" placeholder="Reservation Date">
+                <input type="time" placeholder="Reservation time">
+                <textarea name="" id="" cols="30" rows="2" placeholder="Add a Special Request (Optional)"></textarea>
+            </form>
+            <button class="btn">Find table</button>
+        </div>
+    </div>
+    <header class="header" id="header">
+        <nav>
+            <a href="#" class="logo">Sanji</a>
+            <i id="openMenu" class="fa-solid fa-bars"></i>
+            <i id="book" class="fa-solid fa-utensils btnResrv"></i>
+            <div class="menu">
+                <ul>
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
+                <a href="#" class="btn btnResrv">Reservation</a>
+            </div>
+        </nav>
+    </header>
+    <div class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide slide1 bg-overlay">
+                    <div class="content">
+                        <h3>Made with Love & Care</h3>
+                        <h1>Hot & Ready to serve</h1>
+                        <p>Welcome to Sanji - a culinary haven where passion meets plate!<br> At Sanji, we embark on a flavorful journey that transcends boundaries and tantalizes taste buds.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide2 bg-overlay">
+                    <div class="content">
+                        <h3>Restaurant offers you</h3>
+                        <h1> The Delicious Taste Experience</h1>
+                        <a href="#" class="btn btnResrv">Get Your Reservation now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide3 bg-overlay">
+                    <div class="content">
+                        <h3>"Bon appetit"</h3>
+                        <h1>We serve the best</h1>
+                        <a href="#menu" class="btn">View Our Menu</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next btn-swip"></div>
+            <div class="swiper-button-prev btn-swip"></div>
+
+        </div>
+    </div>
+    <section class="about sec" id="about">
+        <div class="container">
+            <div class="sec-head">
+                <span>Hello there!</span>
+                <h2>Welcome to Restaurant</h2>
+                <img src="shape-4.png" alt="">
+            </div>
+
+            <div class="content">
+                <div class="div-p">
+                    <p>Sanji is the first restaurant opened at Haripal, the restaurant was designed with the history in mind we have created a soft dining room, combined with an open kitchen, coffee takeout bar and coffee roastery</p>
+                </div>
+                <div class="boxs">
+                    <div class="box">
+                        <span>2018</span>
+                        <h3>Grand Opening</h3>
+                        <p>Sanji was opened in January 2018, the interiors were created by the most famous artists. Today our restaurant welcomes 250+ people</p>
+                    </div>
+
+                    <div class="box">
+                        <span>2020</span>
+                        <h3>Second Branch</h3>
+                        <p>Since the very first day, Sanji was a gathering place for teachers, doctors, actors. Therefore we opened a second branch</p>
+                    </div>
+
+                    <div class="box">
+                        <span>2023</span>
+                        <h3>Great Taste award</h3>
+                        <p>Sanji was and still remains not just a restaurant, but also a remarkable part of the culture. We are happy to say that we won the Great Taste award</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recipes" id="recipes">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>Natural Ingredients</span>
+                <h2>Tasty Recipes</h2>
+            </div>
+            <div class="arrow-bottom"></div>
+        </div>
+        <div class="container">
+            <div class="boxs">
+                <div class="box">
+                    <img src="rec-1.jpg" alt="">
+                    <span>Start eating better</span>
+                    <h4>Daily new fresh menus</h4>
+                    <p>Sanji helps you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs</p>
+                </div>
+
+                <div class="box">
+                    <img src="rec-2.jpg" alt="">
+                    <span>Quality is the Heart</span>
+                    <h4>Fresh Ingredient, Tasty Meals</h4>
+                    <p>Who said healthy food can't also be delicious? Sanji creative chefs use fresh and seasonal ingredients to make affordable</p>
+                </div>
+
+                <div class="box">
+                    <img src="rec-3.jpg" alt="">
+                    <span>Hot & Ready to serve</span>
+                    <h4>Creative & Talented chefs</h4>
+                    <p>Sanji have offered a team of culinary professionals that make delectable dishes at memorable events for both private clientele</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-menu" id="menu">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>Fresh Ingredients</span>
+                <h2>Our Menu</h2>
+            </div>
+            <div class="arrow-bottom"></div>
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <ul>
+                    <li class="active">Breakfast</li>
+                    <li>Lunch</li>
+                    <li>Dinner</li>
+                    <li>Desert</li>
+                    <li>Drinks</li>
+                </ul>
+            </div>
+            <div class="boxs">
+                <div class="box">
+                    <img src="menu-1.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Grilled fillet</h3>
+                        <span>$12.95</span>
+                    </div>
+                    <p>Eggs, bacon and cherry-tomatoes with bread</p>
+                </div>
+
+                <div class="box">
+                    <img src="menu-2.jpg" alt="">
+                    <div class="name-price">
+                        <h3>French Chowmin</h3>
+                        <span>$19.95</span>
+                    </div>
+                    <p>Oat graneola with fresh blueberries, almond, yogurt</p>
+                </div>
+
+                <div class="box">
+                    <img src="menu-3.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Chicken Tandoor</h3>
+                        <span>$14.95</span>
+                    </div>
+                    <p>Applewood smoked bacon, tomatoes & green</p>
+                </div>
+
+                <div class="box">
+                    <img src="menu-4.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Sea Trout</h3>
+                        <span>$15.85</span>
+                    </div>
+                    <p>Eggs, bacon and cherry-tomatoes with bread</p>
+                </div>
+
+                <div class="box">
+                    <img src="menu-5.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Smoked Paprika Hummus</h3>
+                        <span>$13.65</span>
+                    </div>
+                    <p>Oat graneola with fresh blueberries, almond, yogurt</p>
+                </div>
+
+                <div class="box">
+                    <img src="menu-6.jpg" alt="">
+                    <div class="name-price">
+                        <h3>Roasted Steak Roulade</h3>
+                        <span>$20.55</span>
+                    </div>
+                    <p>Applewood smoked bacon, tomatoes & green</p>
+                </div>
+            </div>
+            <a href="#" class="btn">Full Menu</a>
+        </div>
+    </section>
+
+    <section class="team" id="team">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>Taste at your table</span>
+                <h2>Talented Chefs</h2>
+            </div>
+            <div class="arrow-bottom"></div>
+        </div>
+        <div class="container">
+            <div class="boxs">
+                <div class="box">
+                    <div class="img-text">
+                        <img src="chef-1.jpg" class="img-w">
+                        <div class="text">
+                            <div class="cont-text">
+                                <div class="social">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <p>Passion for cooking in his genes. He grew up appreciating outstanding foods & services at an early age</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h5>Vinsmoke Sanji</h5>
+                        <p>CEO & Founder</p>
+                    </div>
+                </div>
+
+                    <div class="box">
+                        <div class="img-text">
+                            <img src="chef-2.jpg" class="img-w">
+                            <div class="text">
+                                <div class="cont-text">
+                                    <div class="social">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                    <p>Passion for cooking in his genes. He grew up appreciating outstanding foods & services at an early age</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h5>James Carter</h5>
+                            <p>Thai Master Chef</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="img-text">
+                            <img src="chef-3.jpg" class="img-w">
+                            <div class="text">
+                                <div class="cont-text">
+                                    <div class="social">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                    <p>Passion for cooking in his genes. He grew up appreciating outstanding foods & services at an early age</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h5>Jean Zeff</h5>
+                            <p>Senior Master Chef</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="img-text">
+                            <img src="chef-4.jpg" class="img-w">
+                            <div class="text">
+                                <div class="cont-text">
+                                    <div class="social">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </div>
+                                    <p>Passion for cooking in his genes. He grew up appreciating outstanding foods & services at an early age</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h5>Michael Luke</h5>
+                            <p>Chinese Master Chef</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="guest-book" id="guest-book">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>What others say</span>
+                <h2>Customer Review</h2>
+            </div>
+            <div class="container">
+                <div class="boxs">
+                    <div class="box">
+                        <img src="ribbon.png" class="ribbon">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5>"We've been to Sanji many times over the years. We know what to expect: Great food and amazing prices."</h5>
+                        <img src="blog1.png">
+                        <p>Jugram Haschwalth</p>
+                    </div>
+
+                    <div class="box">
+                        <img src="ribbon.png" class="ribbon">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5>"Sanji is simply the best. Great food, nice ambience and very reasonable prices. It just dosen't get any better. Keep going."</h5>
+                        <img src="blog2.png">
+                        <p>Gremmy Thoumeaux</p>
+                    </div>
+
+                    <div class="box">
+                        <img src="ribbon.png" class="ribbon">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5>"The reasonable prices, the great atmosphere are only topped by thedelicious food. Keep up the great work."</h5>
+                        <img src="blog3.png">
+                        <p>Ishida Uryu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow-bottom"></div>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="mg-box">
+            <div class="container">
+                <div class="links list">
+                    <h4>Follow Us</h4>
+                    <div class="box-links">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="text list">
+                       <h2>Sanji</h2> 
+                       <p>Sanji has the perfect place for to enjoy fine food and great cocktails with excellent service, in comfortable atmospheric surroundings. We have a soft dining room, combined with an open kitchen, coffee take out bar and many more.</p>
+                </div>
+                <div class="news list">
+                    <h4>Newsletter</h4>
+                    <div class="inpt">
+                        <input type="Email" placeholder="Subscribe us">
+                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Haripal, West Bengal, India</p>
+                <p>&copy; 2023 Sanji, with Love by <span>Srinjoy Rakshit</span></p>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
